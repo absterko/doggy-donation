@@ -1,0 +1,195 @@
+&:root,
+.App {
+  width: 625px;
+  margin-right: auto;
+  margin-left: 20%;
+  margin-top: 5%;
+  font-family: "Public Sans", cursive !important;
+}
+
+body {
+  background: url("./img/dog.jpg");
+  background-repeat: no-repeat;
+  background-position: 350% 20%;
+  font-family: "Public Sans", sans-serif !important;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  top: 163px;
+  left: 250px;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.chooseDonateTypeButton {
+  width: 312px;
+  height: 186px;
+}
+
+.selector {
+  width: 100%;
+  display: -webkit-inline-box;
+}
+
+.donateButton {
+  border-radius: 8px;
+}
+
+button:hover {
+  transition: all 0.2s ease;
+  transform: scale(1.05) perspective(1px);
+}
+
+h2 {
+  font-family: "Public Sans";
+}
+
+.ant-steps {
+  font-family: "Public Sans";
+}
+
+.ant-steps-item-title::after {
+  background-color: #cd8a64 !important;
+}
+
+.headerNotRequired {
+  margin-left: auto;
+  color: #80808061;
+}
+
+.finalHeader {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.finalParagraph {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Public Sans";
+}
+
+h3 {
+  font-family: "Public Sans";
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.shelterSelect {
+  margin-left: 10px;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.shelterSelectIcon {
+  font-size: 4.5em;
+  margin-top: 40px;
+  filter: drop-shadow(3px 3px 2px rgb(0 0 0 / 0.4));
+}
+
+.donationAmountButton div {
+  width: 625px;
+  display: inline-flex;
+}
+
+p {
+  font-weight: 400;
+  font-family: "Public Sans";
+}
+
+.ant-steps-icon span {
+  color: black;
+}
+
+.ant-select-selector:hover {
+  border-color: #cd8a64;
+}
+
+.ant-form:hover {
+  border-color: #cd8a64;
+}
+
+.ant-radio-button-wrapper {
+  margin-right: 22px;
+  background-color: white !important;
+  border-color: #d9d9d9 !important;
+  font-family: "Public Sans";
+  font-weight: 800;
+}
+
+.ant-radio-button span {
+}
+
+.ant-radio-button {
+  background: #cd8a64;
+  border-color: white !important;
+  border-radius: 8px;
+}
+
+.ant-radio-button:hover {
+  border-color: white;
+}
+
+.ant-radio-button-wrapper:hover {
+  border-color: #cd8a64 !important;
+}
+.ant-radio-button-wrapper:not(:first-child)::before {
+  background-color: white !important;
+}
+
+.ant-radio-button-wrapper-checked:not {
+  border-color: white !important;
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: #cd8a64;
+}
+
+.ant-input-affix-wrapper-focused {
+  border-color: #cd8a64 !important;
+}
+
+.ant-radio-button-wrapper:hover {
+  color: white;
+  transition: all 0.2s ease;
+  transform: scale(1.01) perspective(1px);
+}
+
+.ant-form-select-selection:hover {
+  border-color: red;
+}
+
+.ant-select-selector:hover {
+  border-color: #cd8a64 !important;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  color: white;
+}
+.ant-radio-button-wrapper-checked:not(
+    .ant-radio-button-wrapper-disabled
+  ):hover {
+  color: white;
+}
+
+.ant-radio-button-wrapper-disabled {
+  color: white;
+}
+
+.ant-input-number:hover {
+  border-color: #cd8a64;
+}
+
+.ant-input:hover {
+  border-color: #cd8a64;
+}
+
+:where(.css-dev-only-do-not-override-11zcaq8).ant-steps
+  .ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title::after {
+  background-color: #cd8a64 !important;
+}
